@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-1.9.0.min.js"></script>
+    <script src="js/jquery.liLanding.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+</head>
+
+<body>
+    <div class="container" id="header">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-fixed-top center-block">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuk">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <img src="img/Claymore.png" alt="">
+                    </div>
+                    <div class="collapse navbar-collapse menuk" id="menuk">
+                        <ul class="nav navbar-nav navbar-right nav-text">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#service">Service</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#price">Price</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="row header" id="home">
+                    <div class="col-md-6 col-sm-6">
+                        <img src="img/mock.png" alt="" class="mock">
+                    </div>
+                    <div class="col-md-6 col-sm-6 header-text">
+                        <h1>Quam eleifend metus commodo</h1>
+                        <br />
+                        <p>luctus at sit amet urna. Quisque non augue tincidunt, egest
+                            <br /> as massa non, elementum sem. Suspendisse mollis nulla
+                            <br /> eu lorem ultricies dapibus. </p>
+                        <div class="cont">
+                            <div class="box">
+                                <div class="btn1">
+                                    <button type="button" class="btn btn-success btn-lg">Purchase now</button>
+                                </div>
+                                <div class="round"><strong>or</strong></div>
+                                <div class="btn2">
+                                    <button type="button" class="btn btn-primary btn-lg">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="about">
+        <div class="row">
+            <div class="col-md-8 col-sm-8 about-text">
+                <p>About us</p>
+                <br />
+                <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam. Donec hendrerit neque sit amet tellus ornare et semper lorem lacinia. Suspendisse ac pellentesque odio. Nunc pharetra malesuada nisi ac condimentum. Curabitur porttitor pulvinar </p>
+            </div>
+            <div class="col-md-4 col-sm-4 text-right about-img">
+                <img src="img/statistics.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container" id="service">
+        <div class="container service">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <img src="img/browser.png" alt="">
+                    <p class="service-text1">Fully Baked up</p>
+                    <p class="service-text2">Curabitur tincidunt dapibus odio, eu gravida felis blandit vel. Vivamus feugiat auctor lorem non eleifend. Nam eu pellentesque est, vitae interdum nisi.</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <img src="img/love.png" alt="">
+                    <p class="service-text1">Build With Love</p>
+                    <p class="service-text2">Nullam dignissim felis diam, sed ultricies nisl ultricies quis. Maecenas feugiat urna ante, et viverra tellus facilisis ut. In hac habitasse platea dictumst.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <img src="img/responsive.png" alt="">
+                    <p class="service-text1">Fully Responsive</p>
+                    <p class="service-text2">Aliquam mattis massa at urna tincidunt ultrices. Curabitur lobortis ante vulputate, imperdiet felis a, adipiscing odio aliquam pharetra molestie mauris
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 features-text">
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <p>consectetur adipiscing elit. Maecenas facilisis ligula non ornare vehicula.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Карусель -->
+        <div class="container myCarousel">
+            <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="active item">
+                        <img src="img/MacBook.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="img/MacBook.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="img/MacBook.png" alt="">
+                    </div>
+                </div>
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right right-arrow"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="price1">
+        <div class="container" id="price">
+            <p>What People Say</p>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="img/Layer3.png" alt="">
+                </div>
+                <div class="col-md-4 price-text">
+                    <p>Excepteur sint occaecat</p>
+                    <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/Layer3.png" alt="">
+                </div>
+                <div class="col-md-4 price-text">
+                    <p>Excepteur sint occaecat</p>
+                    <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="img/Layer3.png" alt="">
+                </div>
+                <div class="col-md-4 price-text">
+                    <p>Excepteur sint occaecat</p>
+                    <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/Layer3.png" alt="">
+                </div>
+                <div class="col-md-4 price-text">
+                    <p>Excepteur sint occaecat</p>
+                    <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="img/Layer3.png" alt="">
+                </div>
+                <div class="col-md-4 price-text">
+                    <p>Excepteur sint occaecat</p>
+                    <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/Layer3.png" alt="">
+                </div>
+                <div class="col-md-4 price-text">
+                    <p>Excepteur sint occaecat</p>
+                    <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <div class="container">
+            <div class="col-md-6 contact-text">
+                <p>Curabitur ornare neque</p>
+                <p>id sagittis commodo. Vivamus rhoncus feugiat leo id dictum. Nulla fermentum nibh eu velit molestie ultricies. Curabitur non gravida urna, at varius tortor. Donec feugiat, nisl ultrices adipiscing pharetra, augue lorem pharetra tortor, non tincidunt urna diam in libero. Nam et neque ut nisi consectetur tempor. Maecenas gravida est eu nisi dignissim gravida. Proin mollis sodales ullamcorper.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> venenatis neque sit amet ante aliquam sollicitudin</p>
+                <p><span class="glyphicon glyphicon-earphone"></span> 0888-7738-21 / 0977-333-222-111</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> parturient@montes.com
+                </p>
+            </div>
+            <div class="col-md-6">
+                <form name="sentMessage" class="form form-register1" id="contactForm">
+
+                    <div class="row">
+                        <div class="col-md-6 input">
+                            <input type="text" class="form-control" placeholder="your name">
+                        </div>
+                        <div class="col-md-6 input">
+                            <input type="text" class="form-control email" placeholder="your email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 select">
+                            <select class="form-control">
+                                <option selected disabled>Please select</option>
+                                <option>Mustard</option>
+                                <option>Ketchup</option>
+                                <option>Relish</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 textarea">
+                            <textarea class="form-control" rows="6" placeholder="your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 contact-btns">
+                            <button type="button" class="btn btn-success contact-btn1">Reset</button>
+                            <button type="button" class="btn btn-primary contact-btn2">Submit</button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="container" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 footer-text">
+                    <p>Copyright 2016-2016 @ruslan_eciberg, All right reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(window).load(function() {
+            $('.menuk').liLanding();
+        })
+        $('.carousel').carousel()
+
+    </script>
+</body>
+
+</html>
